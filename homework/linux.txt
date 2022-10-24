@@ -1,0 +1,49 @@
+ 466 processes.txt
+38:root              3505   0.0  0.0 33744828   4060   ??  Ss   12:00PM   0:00.03 /usr/bin/sysdiagnose
+67:coffeina          1395   0.0  0.0 33609140   1108   ??  S    11:01AM   0:00.01 /usr/bin/ssh-agent -l
+  945  mkdir test_folder
+  946  cd test_folder
+  947  touch processes.txt
+  948  ps aux > processes.txt
+  949  cp processes.txt copy.txt
+  950  mkdir backup
+  951  mv copy.txt backup
+  952  wc -l processes.txt
+  953  wc -l processes.txt > selected.txt
+  954  grep -rin /bin processes.txt
+  955  grep -n /bin processes.txt >> selected.txt
+  956  cat selected.txt
+  957  history
+  958  tail -n 13
+  959  history | tail -n 14
+  960  history | tail -n 16
+  961  history | tail -n 17
+  943  rm -rf test_folder
+  944  clear
+  945  mkdir test_folder
+  946  cd test_folder
+  947  touch processes.txt
+  948  ps aux > processes.txt
+  949  cp processes.txt copy.txt
+  950  mkdir backup
+  951  mv copy.txt backup
+  952  wc -l processes.txt
+  953  wc -l processes.txt > selected.txt
+  954  grep -rin /bin processes.txt
+  955  grep -n /bin processes.txt >> selected.txt
+  956  cat selected.txt
+  957  history
+  958  tail -n 13
+  959  history | tail -n 14
+  960  history | tail -n 16
+  961  history | tail -n 17
+  962  history | tail -n 17 >> commands.txt
+  963  history | tail -n 18
+  964  cat selected.txt commands.txt
+  965  history | tail -n 20
+  966  cat selected.txt commands.txt
+  967  history | tail -n 30 =
+  968  history | tail -n 30
+  969  history | tail -n 29]
+  970  history | tail -n 28
+  971  history | tail -n 17 > commands.txt
