@@ -1,0 +1,30 @@
+  896  ls -la 
+  897  mkdir test
+  898  touch processes.txt
+  899  ps aux > processes.txt
+  900  cp processes.txt copy.txt
+  901  touch backup 
+  902  mv copy.txt backup
+  903  wc -l processes.txt
+  904  wc -l processes.txt > selected.txt
+  905  grep -rin /bin processes.txt
+  906  grep -n /bin processes.txt >> selected.txt
+  907  history 
+  908  history
+  909  history | tail -n 12
+  910  history | tail -n 13
+  898  touch processes.txt
+  899  ps aux > processes.txt
+  900  cp processes.txt copy.txt
+  901  touch backup 
+  902  mv copy.txt backup
+  903  wc -l processes.txt
+  904  wc -l processes.txt > selected.txt
+  905  grep -rin /bin processes.txt
+  906  grep -n /bin processes.txt >> selected.txt
+  907  history 
+  908  history
+  909  history | tail -n 12
+  910  history | tail -n 13
+  911  history | tail -n 15 >> commands.txt
+  912  cat commands.txt
